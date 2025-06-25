@@ -22,8 +22,8 @@ using namespace std;
     cout <<"Enter your age: ";
     cin >> age;
     if (age <= 18){
-        cout << "You cannot vote it." << endl;
+        cout << "You cannot vote" << endl;
     } else {
-        cout << "You can vote it" << endl;
+        cout << "You can vote" << endl;
     }
  }
