@@ -134,3 +134,17 @@ int main(){
         cout << endl ;
     }
 }
+
+/*
+
+output--
+enter the number: 6
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+*/
+
