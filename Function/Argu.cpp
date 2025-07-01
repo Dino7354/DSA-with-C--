@@ -9,17 +9,27 @@ int Argument(int a, int b){
     return a+b;
 }
 
-int changex(int x){
-    return 2*x;
+void changex(int x){
+    x = 2*x;
+    cout << "x = " << x << endl;
 }
 
 int main(){
-    int x,y;
+    int x ;
     cout << "Enter the value of x: ";
     cin >> x;
-    cout << "enter the value of y: ";
-    cin >> y;
 
-    cout << "\n the sum of a and b: " << Argument(x,y) << endl; 
+    changex(x);
+
+    cout << "x = "  << x << endl;
+
+    return 0;
+    // int x,y;
+    // cout << "Enter the value of x: ";
+    // cin >> x;
+    // cout << "enter the value of y: ";
+    // cin >> y;
+
+    // cout << "\n the sum of a and b: " << Argument(x,y) << endl; 
 
 }
