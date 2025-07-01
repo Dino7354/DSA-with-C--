@@ -8,6 +8,8 @@ int minOfTwo(int a, int b){
     }else{
         return b;
     }
+
+
 }
 int main(){
     int a,b;
