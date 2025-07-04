@@ -1,4 +1,4 @@
-//Bitwise & And operator
+//Bitwise (& And, | or, ^ Xor) operator
 #include<iostream>
 using namespace std;
 int main(){
@@ -9,5 +9,7 @@ int main(){
     cout << "Enter the value of b: ";
     cin >> b;
 
-    cout << (a & b);
+    cout <<"& =" << (a & b) << "\n";
+    cout << "| =" << (a | b) << "\n";
+    cout << "^ =" << (a ^ b) << "\n";
 }
