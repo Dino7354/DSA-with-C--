@@ -1,4 +1,4 @@
-//Bitwise (& And, | or, ^ Xor) operator
+//Bitwise (& And, | or, ^ Xor, << left shift, >> right shift) operator
 #include<iostream>
 using namespace std;
 int main(){
@@ -12,4 +12,6 @@ int main(){
     cout <<"& =" << (a & b) << "\n";
     cout << "| =" << (a | b) << "\n";
     cout << "^ =" << (a ^ b) << "\n";
+    cout <<"<< =" << (a<<b) << "\n";
+    cout <<">> =" << (a>>b) << "\n";
 }
