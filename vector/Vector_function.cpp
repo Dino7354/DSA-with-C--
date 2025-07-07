@@ -71,6 +71,18 @@ at;
 // }
 
 //Example of back vec function
+// #include<iostream>
+// #include<vector>
+// using namespace std;
+// int main(){
+//     vector<int>vec={1,2,3,7,5,6};
+//     cout <<"size = " << vec.size() << endl;
+
+//     cout << vec.back() << endl;
+
+// }
+
+//Example of at vec function
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -78,6 +90,11 @@ int main(){
     vector<int>vec={1,2,3,7,5,6};
     cout <<"size = " << vec.size() << endl;
 
-    cout << vec.back() << endl;
+    vec.at(3) = 4;
+
+    cout<<"Size of at = " << vec.size()<< endl;
+    for(int val : vec){
+        cout << val << endl;
+    }
 
 }
