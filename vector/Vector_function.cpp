@@ -59,6 +59,18 @@ at;
 
 
 // Example of front vec function
+// #include<iostream>
+// #include<vector>
+// using namespace std;
+// int main(){
+//     vector<int>vec={1,2,3,7,5,6};
+//     cout <<"size = " << vec.size() << endl;
+
+//     cout << vec.front() << endl;
+
+// }
+
+//Example of back vec function
 #include<iostream>
 #include<vector>
 using namespace std;
@@ -66,6 +78,6 @@ int main(){
     vector<int>vec={1,2,3,7,5,6};
     cout <<"size = " << vec.size() << endl;
 
-    cout << vec.front() << endl;
+    cout << vec.back() << endl;
 
 }
