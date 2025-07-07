@@ -24,19 +24,35 @@ at;
 // }
 
 //Example of push_back vec function
+// #include<iostream>
+// #include<vector>
+// using namespace std;
+// int main(){
+//     vector<char> vec= {'a','b','c','d'};
+
+//     cout << "size = " << vec.size() << endl;
+//     vec.push_back('e');
+
+//     cout << "After push back size of = " << vec.size() << endl;
+
+//     for( char val : vec){
+//         cout << val << endl;
+//     }
+
+// }
+
+//Example of pop back vec function
 #include<iostream>
 #include<vector>
 using namespace std;
 int main(){
-    vector<char> vec= {'a','b','c','d'};
+    vector<int> vec={1,2,3,5};
+    cout << "size of = " << vec.size() << endl;
 
-    cout << "size = " << vec.size() << endl;
-    vec.push_back('e');
+    vec.pop_back();
+    cout << "After pop back size = " << vec.size() << endl;
 
-    cout << "After push back size of = " << vec.size() << endl;
-
-    for( char val : vec){
+    for(int val : vec){
         cout << val << endl;
     }
-
 }
